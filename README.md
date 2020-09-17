@@ -1,9 +1,14 @@
 # ucx-py_notes
 Installation notes for UCX and UCX-PY
 
+# mpi4py
+```
+env MPICC=$(which mpicc) pip install --no-cache-dir mpi4py
+```
+
 # Modules
 ```
-ml intel-mpi/2018.0.3
+ml openmpi/3.1.6
 ```
 # Install UCX
 ```
