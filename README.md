@@ -19,8 +19,14 @@ cd build
 ../contrib/configure-release \
   --enable-mt \
   --prefix=/home/ksayers/bin \
-  --with-rdmacm \
-  --with-verbs
+  --with-rdmacm --with-verbs \
+  --with-rc --with-ud --with-dc \
+  --with-mlx5-dv \
+  --with-cm \
+  --with-dm \
+  --enable-debug \
+  --enable-compiler-opt=3 \
+  --enable-optimizations
 
 make -j8
 make install
