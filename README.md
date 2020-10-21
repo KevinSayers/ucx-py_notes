@@ -46,3 +46,9 @@ conda create -n ucx -c conda-forge \
 CC=gcc python setup.py build_ext --inplace
 pip install .
 ```
+
+# Resources
+* https://github.com/openucx/ucx/wiki/UCX-environment-parameters
+* https://github.com/rapidsai/ucx-py/issues/361
+* https://github.com/dask/distributed/pull/3759
+* https://www.mellanox.com/related-docs/prod_acceleration_software/HPC-X_Toolkit_User_Manual_v2.1.pdf
