@@ -52,3 +52,5 @@ pip install .
 * https://github.com/rapidsai/ucx-py/issues/361
 * https://github.com/dask/distributed/pull/3759
 * https://www.mellanox.com/related-docs/prod_acceleration_software/HPC-X_Toolkit_User_Manual_v2.1.pdf
+* https://dask-cuda.readthedocs.io/en/latest/ucx.html
+* https://github.com/openucx/ucx/issues/4842
