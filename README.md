@@ -46,6 +46,15 @@ conda create -n ucx -c conda-forge \
 CC=gcc python setup.py build_ext --inplace
 pip install .
 ```
+# Running
+
+```
+mpirun -mca pml ucx -x UCX_NET_DEVICES=mlx5_0:1 -x UCX_TLS=rc_x,sockcm -n 35 python test.py
+```
+
+# Issues
+
+[ ] Why doesn't rdmacm work 
 
 # Resources
 * https://github.com/openucx/ucx/wiki/UCX-environment-parameters
